@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/instruction_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/SkyBlue"
+    tools:context=".MetronomeInstructionFragment">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Инструкция: Чтение с метрономом"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/White"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/metronomeIcon"
+        android:layout_width="338dp"
+        android:layout_height="273dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="Metronome Icon"
+        android:src="@drawable/reading_while"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText" />
+
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="1. Выберите частоту метронома (BPM).\n2. Нажмите 'Запустить метроном'.\n3. Читайте текст, синхронизируя слова с ритмом.\n\nЭто упражнение улучшает скорочтение и концентрацию."
+        android:textSize="16sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/White"
+        android:lineSpacingExtra="8dp"
+        android:gravity="center"
+        android:shadowColor="#80000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        app:layout_constraintTop_toBottomOf="@id/metronomeIcon"
+        app:layout_constraintBottom_toTopOf="@id/backButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="180dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="32dp"
+        android:text="Назад"
+        android:textSize="18sp"
+        android:textColor="@color/White"
+        android:background="@drawable/button_background"
+        android:elevation="4dp"
+        app:layout_constraintTop_toBottomOf="@id/instructionText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

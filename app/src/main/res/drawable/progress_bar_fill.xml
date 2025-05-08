@@ -1,0 +1,5 @@
+<!-- res/drawable/progress_bar_fill.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/Blue"/> <!-- Можно заменить на нужный тебе цвет -->
+    <corners android:radius="25dp"/>
+</shape>

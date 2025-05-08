@@ -1,0 +1,105 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SkyBlue"
+    android:padding="16dp"
+    tools:context=".Dostigenia">
+
+    <!-- Кнопка закрытия -->
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/circle_shape_back"
+        android:text="X"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Фильтры -->
+    <LinearLayout
+        android:id="@+id/filterLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/button16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="@string/Все_достижения"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="@string/Завершённые_достижения"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="Незавершённые / в процессе"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Контейнер достижений -->
+    <ScrollView
+        android:id="@+id/scrollViewAchievements"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/rounded_square"
+        android:contentDescription="@string/Dostigenya"
+        android:padding="12dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@id/button20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filterLayout">
+
+        <!-- Важно: только 1 дочерний элемент у ScrollView -->
+        <GridLayout
+            android:id="@+id/gridLayoutAchievements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="3"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:rowOrderPreserved="false" />
+    </ScrollView>
+
+    <!-- Кнопка "Next" -->
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:background="@drawable/button_background"
+        app:layout_constraintTop_toBottomOf="@id/scrollViewAchievements"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

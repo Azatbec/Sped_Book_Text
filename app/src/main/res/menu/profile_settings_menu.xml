@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_edit_profile"
+        android:title="Редактировать профиль"
+        android:icon="@drawable/ic_edit" />
+    <item
+        android:id="@+id/menu_change_avatar"
+        android:title="Изменить аватара"
+        android:icon="@drawable/ic_avatar" />
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Выйти из аккаунта"
+        android:icon="@drawable/ic_logout" />
+</menu>

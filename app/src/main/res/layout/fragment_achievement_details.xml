@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/SkyBlue"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Achievement Icon -->
+    <ImageView
+        android:id="@+id/achievementIcon"
+        android:layout_width="226dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="Achievement Icon"
+        android:layout_gravity="center"/>
+
+    <!-- Achievement Title -->
+    <TextView
+        android:id="@+id/achievementTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Achievement Title"/>
+
+    <!-- Achievement Description -->
+    <TextView
+        android:id="@+id/achievementDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Achievement Description"/>
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"/>
+</LinearLayout>

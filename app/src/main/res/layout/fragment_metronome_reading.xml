@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/SkyBlue"
+        tools:context=".MetronomeReadingFragment">
+
+        <!-- Инструкция -->
+        <TextView
+            android:id="@+id/instructionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Чтение с метрономом"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.435"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Описание -->
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Читайте текст, синхронизируя слова с ритмом метронома"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instructionText" />
+
+        <!-- Изображение для упражнения -->
+        <ImageView
+            android:id="@+id/exerciseImage"
+            android:layout_width="445dp"
+            android:layout_height="355dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Metronome Reading Exercise Image"
+            android:src="@drawable/reading_while"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/descriptionText"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <!-- Кнопка для старта/остановки метронома -->
+        <Button
+            android:id="@+id/startStopButton"
+            android:layout_width="169dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_background"
+            android:text="Запустить метроном"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/exerciseImage" />
+
+        <!-- Текст частоты BPM -->
+        <TextView
+            android:id="@+id/bpmText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Частота: 60 BPM"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bpmSeekBar" />
+
+        <!-- Кнопка инструкции -->
+        <Button
+            android:id="@+id/instructionButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/elipse"
+            android:drawablePadding="4dp"
+            android:text="\u003F"
+            android:textColor="@color/Black"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.96"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bpmText"
+            app:layout_constraintVertical_bias="0.092" />
+
+        <!-- Ползунок для регулировки BPM -->
+        <SeekBar
+            android:id="@+id/bpmSeekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:max="140"
+            android:progress="0"
+            android:progressDrawable="@drawable/custom_progress"
+            android:thumb="@drawable/custom_thumb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/startStopButton" />
+
+        <!-- Кнопка для возврата назад -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/circle_shape_back"
+            android:text="X"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/instructionText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

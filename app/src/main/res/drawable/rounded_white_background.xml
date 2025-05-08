@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Белый фон -->
+    <solid android:color="@android:color/white" />
+
+    <!-- Закругленные углы -->
+    <corners android:radius="30dp" />
+
+    <!-- (Необязательно) Тень по краям — если нужен эффект тени, лучше использовать elevation в layout -->
+</shape>

@@ -1,0 +1,14 @@
+<!-- res/drawable/rounded_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Цвет фона -->
+    <android:drawable android:src="@drawable/shult" />
+
+    <!-- Закругление углов -->
+    <corners android:radius="30dp" />
+
+    <!-- (Опционально) граница -->
+    <!-- <stroke android:width="2dp" android:color="#FF6200EE" /> -->
+
+</shape>

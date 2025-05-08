@@ -1,0 +1,10 @@
+<!-- res/drawable/button_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Основной фон кнопки -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#8EDFFD" /> <!-- Цвет фона -->
+            <corners android:radius="16dp" /> <!-- Закруглённые углы -->
+        </shape>
+    </item>
+</layer-list>

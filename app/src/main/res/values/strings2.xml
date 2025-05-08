@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Скорость_чтения">Скорость чтения</string>
+    <string name="слов_мин">284 слов/мин</string>
+    <string name="progress1">\u2191 15% за неделю</string>
+    
+    <string name="Понимание_Текста">Понимание текста</string>
+    <string name="девяносто_два_процент">92%</string>
+    <string name="progress2">\u2191 7% за неделю</string>
+
+    <string name="Поле_зрения">Поле зрения</string>
+    <string name="четыре_и_два">4,2 слов </string>
+    <string name="progress3">\u2191 0.8 за неделю</string>"
+    
+    <string name="Время_заняти">Время Занятия</string>
+    <string name="Пяти_и_четыре">5.4 часов</string>
+    <string name="progress4">\u2193 0.2 за неделю</string>"
+</resources>

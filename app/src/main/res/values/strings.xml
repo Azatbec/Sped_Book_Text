@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Sped_Book_Text</string>
+    <string name="Home_text">Добро пожаловать!</string>
+    <string name="Start">Начать</string>
+    <string name="Login">Войти</string>
+    <string name="version">v10.25.1</string>
+    <string name="question_mark">\u003F</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Option">О приложениии</string>
+    <string name="about_description">
+    <![CDATA[
+        Данное приложение разработано для пользователей, стремящихся развить навыки скорочтения и улучшить концентрацию внимания. Оно включает в себя интерактивные упражнения, направленные на повышение скорости восприятия текста, тренировку периферического зрения и развитие когнитивных способностей.
+
+        Благодаря индивидуальному подходу и прогрессивной сложности заданий, приложение подходит как для начинающих, так и для продвинутых пользователей. Встроенная статистика позволяет отслеживать прогресс, а яркий и интуитивный интерфейс делает процесс обучения интересным и увлекательным.
+
+        Рекомендуется для школьников, студентов, педагогов и всех, кто хочет повысить свою эффективность при работе с текстами.
+    ]]>
+</string>
+    <string name="back">Назад</string>
+    <string name="Autorization">Авторизация</string>
+    <string name="Email_Phone">Почта/Номер телефона </string>
+    <string name="Password">Пароль</string>
+    <string name="Registration">Регистрация</string>
+    <string name="google">Google</string>
+
+    <string name="LastName">Имя </string>
+    <string name="FerstName">Фамилия</string>
+    <string name="Phone">Телефон</string>
+
+    <string name="Next">Далее</string>
+
+    <string name="Password_Relote">Повторить пароль</string>
+    <string name="Email">Почта</string>
+
+    <string name="Nik">Ник</string>
+
+    <string name="Dannye">Потверждени использование
+    Личными данными </string>
+    <string name="Dannye2">Согласие получени оповешени </string>
+    <string name="Dannye3">Получени уведомлений /
+    новостных оповешений </string>
+
+    <string name="Finali">Готово</string>
+
+    /**/
+    <string name="Trenagor_start">Начать Тренировку </string>
+
+    <string name="Privetstvie">Добро Пожаловать </string>
+
+    <string name="Shulte">Таблица Шульте</string>
+
+    <string name="metronom">Чтение с метрономом</string>
+    <string name="sglagnor_chtrnir">Сглаженное чтение </string>
+
+
+    <string name="trening_ficsation">Тренировка Фиксаций </string>
+    <string name="Anticipacia">Антиципаци</string>
+    <string name="Regresia_stop">Регрессия стоп </string>
+
+    <string name="Smislovoe_Vospriatie">Упражнения на\nсмысловое восприятие</string>
+    <string name="Verticalnoe_read">Вертикальное Чтение </string>
+    <string name="Molninosnoe_Chtenie">Молненосное чтение </string>
+    /**/
+    <string name="one_four">1/4</string>
+    <string name="two_four">2/4</string>
+    <string name="three_four">3/4</string>
+    <string name="four_four">4/4</string>
+
+    /**/
+
+    <string name="Obshi_Progress">Общий Прогресс</string>
+    <string name="Statysni_work">Статистика занятий</string>
+    <string name="Dostigenya">Достижения</string>
+    <string name="Dostigenya_List">Список Достижений</string>
+
+
+    <string name="achievement_icon">Иконка достижения</string>
+
+    /**/
+
+    <string name="Все_достижения">Все достижения</string>
+    <string name="Завершённые_достижения">Завершённые достижения</string>
+    <string name="Незавершённые_в_процессе">Незавершённые / в процессе</string>
+
+    /**/
+
+    <string name="Начальный_этап">Начальный этап</string>
+    <string name="Полное_завершение">Полное завершение</string>
+    <string name="Ранний_старт">Ранний старт</string>
+    <string name="Завершитель">Завершитель</string>
+    <string name="Сосредоточенность">Сосредоточенность</string>
+    <string name="Эксперт">Эксперт</string>
+    <string name="Идеальный_баланс">Идеальный баланс</string>
+    <string name="Настойчивость">Настойчивость</string>
+    <string name="Быстрый_старт">Быстрый старт</string>
+    <string name="Командный_игрок">Командный игрок</string>
+    <string name="Достигатель_цели">Достигатель цели</string>
+    <string name="Мастер_фокуса">Мастер фокуса</string>
+    <string name="Молниеносный_прогресс">Молниеносный прогресс</string>
+    <string name="Мудрый_путь">Мудрый путь</string>
+    <string name="Легенда">Легенда</string>
+    <string name="Покоритель_вершин">Покоритель вершин</string>
+    <string name="Все_по_плану">Все по плану</string>
+    <string name="Мастер_времени">Мастер времени</string>
+    <string name="Без_ошибок">Без ошибок</string>
+    <string name="Опытный_стратег">Опытный стратег</string>
+
+    <string name="Порядок_чисел">Найдите числа по порядку от 1 до 25</string>
+    <string name="Описание_1">Таблица Шульте помогает развивать внимание и скорость восприятия. Постарайтесь найти все числа от 1 до 25 как можно быстрее.</string>
+
+    /*---------------------------*/
+
+    <string name="Покадровый_режим">Покадровый режим </string>
+    <string name="Плавная_прокрутка">Плавная прокрутка</string>
+    <string name="Центральное_выделение">Центральное \nвыделение</string>
+    <string name="Фокус_по_вертикали">Фокус по вертикали</string>
+
+    /*--------*/
+
+    <string name="help_button">\u003F</string>
+    <string name="nikname">Псевдоним</string>
+
+    /**/
+
+    <string name="Name">Имя</string>
+    <string name="Level">Уровень</string>
+    <string name="Ваше_достижение">Ваше Достижение</string>
+    <string name="Обшая_статистика">Обшая Статистика</string>
+    <string name="Цели_недели">Цели Недели </string>
+    <string name="Настроики">Настройки</string>
+</resources>
